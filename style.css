@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin:0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.navbar-brand{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar{
+  position: sticky;
+  top: 0;
+}
+h3{
+  padding: 10px;
+  font-weight: bold;
+  font-family: sans-serif; /*Comic Sans MS, Comic Sans, cursive*/
+}
+.btn-dark{
+  margin: 20px;
+}
+.playlist ,.list{
+  border:1px solid black;
+  padding: 8px;
+  font-family: cursive;
+  font-weight: bold;
+}
+.playlist{
+  border: none;
+}
+.list:hover{
+  border: 3px solid black;
+}
+audio{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  outline: none;
+}
+i{
+  float: right;
+  padding: 7px;
+}
+i:hover{
+  background-color: #ddd;
+}
+a{
+  float: right;
+  text-decoration: none;
+  color: black;
+}
+.download{
+  padding: 2px;
+  background-color: green;
+  color: white;
+}
